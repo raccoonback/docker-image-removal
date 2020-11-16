@@ -9,7 +9,7 @@
 >
 > image, tag: test dev
 
-if you put blank, it runs '<none>' about image or tage  
+if you put blank, it runs `<none>` about image or tag  
 
 ## npm
 
