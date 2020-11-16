@@ -1,12 +1,11 @@
 {
-  "name": "docker-image-removal",
+  "name": "@raccoonback/docker-image-removal",
   "version": "1.0.0",
   "description": "it do remove docker images",
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bugs": {
     "email": "kosb15@naver.com"
   },
@@ -22,5 +21,10 @@
   "license": "MIT",
   "dependencies": {
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoonback/docker-image-removal.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
